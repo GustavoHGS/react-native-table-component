@@ -28,7 +28,7 @@ class Table extends Component {
     if (this.props.borderStyle && this.props.borderStyle.borderColor) {
       borderColor = this.props.borderStyle.borderColor;
     } else {
-      borderColor = '#808080';
+      borderColor = '#B3B3B3';
     }
 
     return (

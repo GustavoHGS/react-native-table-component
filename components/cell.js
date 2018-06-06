@@ -21,7 +21,7 @@ class Cell extends Component {
     if (this.props.borderStyle && this.props.borderStyle.borderColor) {
       borderColor = this.props.borderStyle.borderColor;
     } else {
-      borderColor = '#000';
+      borderColor = '#B3B3B3';
     }
 
     return (
