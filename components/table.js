@@ -4,7 +4,6 @@ import { View, ViewPropTypes, Text } from 'react-native';
 class Table extends Component {
   static propTypes = {
     style: ViewPropTypes.style,
-    borderStyle: ViewPropTypes.style,
   }
 
   _renderChildren(props) {
@@ -29,7 +28,7 @@ class Table extends Component {
     if (this.props.borderStyle && this.props.borderStyle.borderColor) {
       borderColor = this.props.borderStyle.borderColor;
     } else {
-      borderColor = '#000';
+      borderColor = '#808080';
     }
 
     return (

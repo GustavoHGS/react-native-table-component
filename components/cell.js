@@ -5,7 +5,6 @@ class Cell extends Component {
   static propTypes = {
     style: ViewPropTypes.style,
     textStyle: Text.propTypes.style,
-    borderStyle: ViewPropTypes.style,
   }
 
   render() {
